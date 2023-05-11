@@ -51,3 +51,5 @@ def decode(morse_message)
 end
 
 puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+
+# output: A BOX FULL OF RUBIES
