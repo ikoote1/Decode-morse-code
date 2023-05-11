@@ -42,16 +42,14 @@ def decode_char(morse_char)
   MORSE_CODE[morse_char]
 end
 
-puts decode_char(".-")
+def decode_word(morse_word)
+  morse_word.split.map { |morse_char| decode_char(morse_char) }.join
+end
 
-# def decode_word(morse_word)
-#   morse_word.split.map { |morse_char| decode_char(morse_char) }.join
-# end
+def decode(morse_message)
+  morse_message.split('   ').map { |morse_word| decode_word(morse_word) }.join(' ')
+end
 
-# def decode(morse_message)
-#   morse_message.split('   ').map { |morse_word| decode_word(morse_word) }.join(' ')
-# end
-
-# puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
 
 # output: A BOX FULL OF RUBIES
