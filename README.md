@@ -10,7 +10,7 @@ This is a project for decoding morse codes.
 - [vet\_clinic](#vet_clinic)
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 \[your\_project\_name\] ](#-your_project_name-)
-  - [🛠 Built With PortsgreSQL](#-built-with-portsgresql)
+  - [🛠 Built With PortsgreSQL](#-built-with-ruby)
     - [Tech Stack Github](#tech-stack-github)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
@@ -35,7 +35,7 @@ This is a project for decoding morse codes.
 
 **[Decode-morse-code]** This is a project for decoding morse codes..
 
-## 🛠 Built With <a name="SQL">PortsgreSQL</a>
+## 🛠 Built With <a name="SQL">Ruby, WSL</a>
 
 ###<a name="tech-stack">Tech Used</a>
 
